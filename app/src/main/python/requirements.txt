@@ -1,0 +1,14 @@
+Django==5.2.8
+whitenoise==6.6.0
+django-jazzmin==3.0.1
+python-dotenv==1.0.1
+beautifulsoup4==4.12.3
+django-admin-sortable2==2.2.8
+django-auto-prefetch==1.11.0
+django-debug-toolbar==6.0.0
+pydantic==1.10.24
+requests==2.32.4
+django-solo==2.4.0
+tqdm==4.67
+tzdata==2025.2
+Pillow==11.0.0

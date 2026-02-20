@@ -1,0 +1,5 @@
+*.pyc
+files/*
+!files/.gitkeep
+*.env
+.DS_Store

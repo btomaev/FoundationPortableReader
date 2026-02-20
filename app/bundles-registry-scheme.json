@@ -1,0 +1,66 @@
+{
+    "version": "0.0.1",
+    "articleRegistries": [
+        {
+            "name": "main",
+            "url": "https://scpfoundation.net/api/articles",
+            "internalDomains": [
+                "scpfoundation.net", "files.scpfoundation.net"
+            ]
+        }
+    ],
+    "bundles": [
+        {
+            "name": "Структурные",
+            "lastUpdate": 1771457014,
+            "mode": "dynamic",
+            "description": "Все статьи с тегом структура_сайта",
+            "filters": {
+                "tags": ["структура:структура_сайта"]
+            }
+        },
+        {
+            "name": "Все темы ААААААА",
+            "lastUpdate": 1771457014,
+            "mode": "dynamic",
+            "description": "Вообще все-все, даже ебучий хайлайтер!",
+            "filters": {
+                "tags": ["структура:визуальная_тема"]
+            }
+        },
+        {
+            "name": "Структура мин.",
+            "lastUpdate": 1771457014,
+            "mode": "latest",
+            "description": "Минимальный набор страниц, необходимый для работы читалки",
+            "content": [
+                "main", "nav:top", "nav:top-impl", "nav:side", "nav:side-impl", "fragment:main-banner",
+                "news", "most-recently-created", "system:recent-changes", "forum:recent-posts",
+                "system:join", "sandbox:main", "contacts", "faq", "random:random-page",
+                "system:where-to-start", "wiki-syntax-guide", "system:selected-few", "system:page-tags",
+                "fragment:selected-few-2011", "fragment:selected-few-2012", "fragment:selected-few-2013",
+                "fragment:selected-few-2018", "fragment:selected-few-2021", "fragment:selected-few-2023",
+                "fragment:selected-few-2024", "fragment:selected-few-2025"
+            ]
+        },
+        {
+            "name": "Избранное 2025",
+            "lastUpdate": 1771457014,
+            "mode": "latest",
+            "description": "Избранные статьи за 2025 год",
+            "content": ["scp-1475-ru", "scp-1129-ru", "scp-1530-ru", "scp-1484-ru", "scp-1500-ru", "scp-1983-ru", "scp-1485-ru", "scp-1414-ru-ex", "scp-1432-ru", "scp-1466-ru"]
+        },
+        {
+            "name": "Тестововое",
+            "lastUpdate": 1771457014,
+            "mode": "static",
+            "description": "ооочень интересное описание 12345",
+            "content": [
+                {
+                    "name": "a-herd-of-bison-forming-thoughts",
+                    "revision": 14
+                }
+            ]
+        }
+    ]
+}

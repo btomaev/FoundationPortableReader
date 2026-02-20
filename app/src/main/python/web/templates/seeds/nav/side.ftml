@@ -1,0 +1,5 @@
+++ Existing pages:
+
+[[module listpages category="*" separate="False" prependLine="|| **Title** || **Fullname** ||"]]
+|| %%title_linked%% || %%fullname%% ||
+[[/module]]
