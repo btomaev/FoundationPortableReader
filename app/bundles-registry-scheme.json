@@ -48,7 +48,16 @@
             "lastUpdate": 1771457014,
             "mode": "latest",
             "description": "Избранные статьи за 2025 год",
-            "content": ["scp-1475-ru", "scp-1129-ru", "scp-1530-ru", "scp-1484-ru", "scp-1500-ru", "scp-1983-ru", "scp-1485-ru", "scp-1414-ru-ex", "scp-1432-ru", "scp-1466-ru"]
+            "content": ["fragment:selected-few-2025", "scp-1475-ru", "scp-1129-ru", "scp-1530-ru", "scp-1484-ru", "scp-1500-ru", "scp-1983-ru", "scp-1485-ru", "scp-1414-ru-ex", "scp-1432-ru", "scp-1466-ru"]
+        },
+        {
+            "name": "Все рассказы руфонда",
+            "lastUpdate": 1771457014,
+            "mode": "dynamic",
+            "description": "Все.",
+            "filters": {
+                "tags": ["структура:рассказ", "филиал:ru"]
+            }
         },
         {
             "name": "Тестововое",
